@@ -9,5 +9,5 @@ while (a !=n):
         print("Too low!")
     elif a > n:
         print("Too high!")
-    else:
+    else: 
         print(f"Congratulations! You've guessed the number {n} in {guesses} attempts.")
