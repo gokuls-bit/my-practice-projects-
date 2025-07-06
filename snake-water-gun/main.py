@@ -11,7 +11,7 @@ yourDict = {"s": 1, "w": -1, "g": 0}
 youstr = input("Enter your choice (s for Snake, w for Water, g for Gun): ").lower()
 
 # Validate user input
-if youstr not in yourDict:
+if youstr not in yourDict: 
     print("Invalid input! Please enter 's', 'w', or 'g'.")
 else:
     you = yourDict[youstr]
