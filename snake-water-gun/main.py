@@ -2,7 +2,7 @@ import random
 
 # Randomly set computer's move
 # 1 = Snake, -1 = Water, 0 = Gun
-computer = random.choice([1, -1, 0])
+computer = random.choice([1, -1, 0]) 
 
 # Map string choices to numeric values
 yourDict = {"s": 1, "w": -1, "g": 0}
